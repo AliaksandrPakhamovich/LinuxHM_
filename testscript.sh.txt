@@ -1,0 +1,9 @@
+#bin/bash
+
+name="$(whoami)"
+echo "Hello $name"
+
+directory="$(pwd)"
+echo "your working directory is: $directory"
+
+echo "done"
